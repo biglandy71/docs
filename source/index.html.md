@@ -341,9 +341,9 @@ Content-Type: application/json
 ```
 
 
-## List Kits (TEMPORARY ENDPOINT UNTIL EVENT WEBHOOKS)
+## List Kits 
 
-Get a list of Kits matching the filter query params. 
+Get a list of Kits matching the filter query params. (TEMPORARY ENDPOINT UNTIL EVENT WEBHOOKS)
 NOTE: Kits will be paginated but currently all will be returned.
 
 ### Production URL
