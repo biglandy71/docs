@@ -62,6 +62,15 @@ Now that Slate is all set up on your machine, you'll probably want to learn more
 
 If you'd prefer to use Docker, instructions are available [in the wiki](https://github.com/lord/slate/wiki/Docker).
 
+### Deployment
+- `doctl compute ssh jenkins@docs`
+- `cd docs `
+- `git fetch origin`
+- `git rebase origin/master`
+- `//git reset —hard orgin/master`
+- `middleman build `
+
+
 ### Note on JavaScript Runtime
 
 For those who don't have JavaScript runtime or are experiencing JavaScript runtime issues with ExecJS, it is recommended to add the [rubyracer gem](https://github.com/cowboyd/therubyracer) to your gemfile and run `bundle` again.
