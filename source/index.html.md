@@ -20,8 +20,8 @@ Authorize and Issue Token
 ### Production URL
 `GET https://auth.everlywell.com/api/v1/token`
 
-### Staging URL
-`GET https://auth-staging.everlywell.com/api/v1/token`
+### Test URL
+`GET https://auth-test.everlywell.com/api/v1/token`
 
 ```http
 GET https://auth.everlywell.com/api/v1/token HTTP/1.1
@@ -57,8 +57,8 @@ Create a User.
 ### Production URL
 `POST https://secure.everlywell.com/ent/v1/users`
 
-### Staging URL
-`POST https://secure-staging.everlywell.com/ent/v1/users`
+### Test URL
+`POST https://secure-test.everlywell.com/ent/v1/users`
 
 > Request Definition
 
@@ -128,8 +128,8 @@ Create an Order.
 ### Production URL
 `POST https://secure.everlywell.com/ent/v1/orders`
 
-### Staging URL
-`POST https://secure-staging.everlywell.com/ent/v1/orders`
+### Test URL
+`POST https://secure-test.everlywell.com/ent/v1/orders`
 
 > Request Definition
 
@@ -210,8 +210,8 @@ Create an Kit Registration for a User.
 ### Production URL
 `POST https://secure.everlywell.com/ent/v1/kits/registration`
 
-### Staging URL
-`POST https://secure-staging.everlywell.com/ent/v1/kits/registration`
+### Test URL
+`POST https://secure-test.everlywell.com/ent/v1/kits/registration`
 
 > Request Definition
 
@@ -288,8 +288,8 @@ Get single Result by Kit ID for a registered Kit
 ### Production URL
 `GET https://secure.everlywell.com/ent/v1/kits/<kit_id>`
 
-### Staging URL
-`GET https://secure.everlywell.com/ent/v1/kits/<kit_id>`
+### Test URL
+`GET https://secure-test.everlywell.com/ent/v1/kits/<kit_id>`
 
 > Request Definition
 
@@ -349,8 +349,8 @@ Get a list of Kits matching the filter query params.
 ### Production URL
 `GET https://secure.everlywell.com/ent/v1/kits?<param1>=<value1>`
 
-### Staging URL
-`GET https://secure.everlywell.com/ent/v1/kits?<param1>=<value1>`
+### Test URL
+`GET https://secure-test.everlywell.com/ent/v1/kits?<param1>=<value1>`
 
 > Request Definition
 
